@@ -8,9 +8,7 @@ if __name__=="__main__":
     for i in range(input_cnt):
         
         input_str = list(input())
-        data = set(list(input_str))
-        data = [data,len(input_str)]
-
+        data = sorted(input_str)
 
         if data not in list_group:
             list_group.append(data)
